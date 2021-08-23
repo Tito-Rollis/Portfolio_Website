@@ -2,7 +2,7 @@ import Navbar from '../components/navbar/navbar';
 import Head from 'next/head';
 export default function Home() {
     return (
-        <div className="bg-majorColor ">
+        <div className="bg-majorColor">
             <Head>
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link
@@ -21,8 +21,6 @@ export default function Home() {
                 />
             </Head>
             <Navbar />
-            <h1 className="text-center font-display">PATLIVIA</h1>
-            <h1 className="text-center font-tungsten text-3xl">NUSWANTITO</h1>
         </div>
     );
 }
