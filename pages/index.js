@@ -1,8 +1,9 @@
 import Navbar from '../components/navbar/navbar';
+import DisplayName from '../components/display/name';
 import Head from 'next/head';
 export default function Home() {
     return (
-        <div className="bg-majorColor h-screen">
+        <div className="bg-majorColor grid grid-cols-3 grid-rows-3 mx-auto h-screen px-5 md:px-16">
             <Head>
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link
@@ -20,7 +21,8 @@ export default function Home() {
                     type="text/css"
                 />
             </Head>
-            <Navbar />
+            <Navbar layout=" col-span-3" />
+            <DisplayName layout="self-center row-start-2 row-end-3" />
         </div>
     );
 }

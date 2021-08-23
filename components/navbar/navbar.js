@@ -1,8 +1,8 @@
 import HamburgerMenu from './hamburger-menu';
 
-export default function Navbar() {
+export default function Navbar(props) {
     return (
-        <nav className="w-11/12 mx-auto flex flex-row justify-end">
+        <nav className={` flex flex-row justify-end ${props.layout}`}>
             <HamburgerMenu />
         </nav>
     );

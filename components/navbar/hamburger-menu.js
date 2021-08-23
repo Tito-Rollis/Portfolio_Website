@@ -14,7 +14,7 @@ export default function HamburgerMenu() {
     );
 
     return (
-        <div className="mt-7 box-border grid grid-cols-1 grid-rows-3 gap-y-1 ">
+        <div className="mt-7 box-border flex flex-col justify-between h-7 ">
             {hamburger}
             {hamburger}
             {hamburger}
