@@ -2,7 +2,7 @@ import Navbar from '../components/navbar/navbar';
 import Head from 'next/head';
 export default function Home() {
     return (
-        <div className="bg-majorColor">
+        <div className="bg-majorColor h-screen">
             <Head>
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link
