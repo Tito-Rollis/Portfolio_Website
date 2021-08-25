@@ -8,7 +8,7 @@ import BigName from '../components/bigName/bigName';
 import Head from 'next/head';
 export default function Home() {
     return (
-        <div className="bg-majorColor h-screen overflow-hidden relative grid grid-cols-3 grid-rows-3 mx-auto  py-4 px-5 md:px-16">
+        <div className="bg-majorColor bailey'base kharlie stone aften opal eva elfie codi vore h-screen overflow-hidden relative grid grid-cols-3 grid-rows-3 mx-auto  py-4 px-5 md:px-16">
             <Head>
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link
@@ -41,8 +41,8 @@ export default function Home() {
 
             <DisplayName layout="self-center ml-14 col-start-1 col-end-2 row-start-2 row-end-3" />
             <BulletNav layout="z-10 self-center justify-self-end col-start-3 col-end-4 row-start-2 row-end-3" />
-            <Potrait layout="col-start-1 col-end-4 row-start-2 row-end-4" />
-            <Number layout="col-start-3 col-end-4 row-start-3 row-end-4" />
+            <Potrait layout="z-10 col-start-1 col-end-4 row-start-2 row-end-4" />
+            <Number layout="z-10 col-start-3 col-end-4 row-start-3 row-end-4" />
             <Medsos layout="col-start-1 col-end-2 row-start-3 row-end-4" />
         </div>
     );
