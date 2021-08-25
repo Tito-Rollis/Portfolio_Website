@@ -13,6 +13,7 @@ module.exports = {
             fontFamily: {
                 tungsten: ['Tungsten'],
                 oswald: ['Oswald'],
+                montserrat: ['Montserrat'],
             },
         },
     },
