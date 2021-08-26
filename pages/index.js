@@ -8,7 +8,7 @@ import BigName from '../components/bigName/bigName';
 import Head from 'next/head';
 export default function Home() {
     return (
-        <div className="bg-majorColor bailey'base kharlie stone aften opal eva elfie codi vore h-screen overflow-hidden relative grid grid-cols-3 grid-rows-3 mx-auto  py-4 px-5 md:px-16">
+        <div className="bg-majorColor bailey'base aften opal eva elfie codi vore h-screen overflow-hidden relative grid grid-cols-3 grid-rows-3 mx-auto  py-4 px-5 md:px-16">
             <Head>
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link
