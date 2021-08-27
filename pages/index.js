@@ -5,6 +5,7 @@ import Number from '../components/number/number';
 import Potrait from '../components/potrait/potrait';
 import Medsos from '../components/medsos/medsos';
 import BigName from '../components/bigName/bigName';
+import NavList from '../components/navbar/navList';
 import Head from 'next/head';
 export default function Home() {
     return (
@@ -40,10 +41,11 @@ export default function Home() {
             <Navbar layout=" col-span-3 z-10" />
 
             <DisplayName layout="self-center ml-14 col-start-1 col-end-2 row-start-2 row-end-3" />
-            <BulletNav layout="z-10 self-center justify-self-end col-start-3 col-end-4 row-start-2 row-end-3" />
-            <Potrait layout="z-10 col-start-1 col-end-4 row-start-2 row-end-4" />
+            <BulletNav layout="z-30 self-center justify-self-end col-start-3 col-end-4 row-start-2 row-end-3" />
+            <Potrait layout="z-10 self-end md:self-center pb-10 col-start-1 col-end-4 row-start-2 row-end-4" />
             <Number layout="z-10 col-start-3 col-end-4 row-start-3 row-end-4" />
             <Medsos layout="col-start-1 col-end-2 row-start-3 row-end-4" />
+            <NavList layout="hidden" />
         </div>
     );
 }

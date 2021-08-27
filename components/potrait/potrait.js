@@ -3,7 +3,7 @@ export default function Potrait(props) {
         <div className={`${props.layout}`}>
             <img
                 className="rounded-full mx-auto"
-                width="700px"
+                width="600px"
                 src="/potrait.png"
             />
         </div>
