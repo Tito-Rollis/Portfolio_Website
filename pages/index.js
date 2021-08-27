@@ -45,7 +45,7 @@ export default function Home() {
             <Potrait layout="z-10 self-end md:self-center pb-10 col-start-1 col-end-4 row-start-2 row-end-4" />
             <Number layout="z-10 col-start-3 col-end-4 row-start-3 row-end-4" />
             <Medsos layout="col-start-1 col-end-2 row-start-3 row-end-4" />
-            <NavList layout="hidden" />
+            <NavList layout="" />
         </div>
     );
 }
