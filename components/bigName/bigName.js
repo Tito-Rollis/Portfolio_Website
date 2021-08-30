@@ -14,7 +14,7 @@ export default function BigName() {
         //     src="/TITO.png"
         // />
         <h1
-            className="font-tungsten text-9xl absolute right-0 text-white text-opacity-50 z-0"
+            className="font-tungsten text-9xl absolute  right-0 text-white text-opacity-50 z-0"
             style={{ transform: 'scale(400%) rotate(-90deg) translateX(-33%)' }}
         >
             TITO
